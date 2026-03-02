@@ -1,0 +1,115 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e7ef;
+    color: #333;
+}
+
+header {
+    background-color: #5a2a4a;
+    color: #fff;
+    text-align: center;
+    padding: 1.2em 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.blue-text {
+    color: #0044cc;
+    font-weight: bold;
+}
+
+.course-info, .summary-box, .student-info, .links {
+    margin: 25px;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #d6c6d6;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.member-box {
+    background-color: #faf6fa;
+    padding: 15px;
+    border: 1px solid #d3bfd3;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+ul p {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #5a2a4a;
+}
+
+a {
+    color: #5a2a4a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ====================  REGISTER PAGE STYLE  ==================== */
+
+.container {
+    width: 350px;
+    margin: 80px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.container h2 {
+    text-align: center;
+    color: #5a2a4a;
+}
+
+.container label {
+    font-weight: bold;
+    color: #5a2a4a;
+}
+
+.container input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #d4bcd4;
+    border-radius: 5px;
+}
+
+.container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5a2a4a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #7b3d6b;
+}
